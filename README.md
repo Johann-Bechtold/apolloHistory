@@ -1,3 +1,3 @@
 # apolloHistory
 
-###This Python Script is extracting a postgresql database table and 
+## This Python Script is extracting a postgresql database table and 
