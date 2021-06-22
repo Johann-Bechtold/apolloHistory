@@ -108,6 +108,8 @@ for index, row in df_source.iterrows():
 
     # create dataframe from dictionary
     df_inter = pd.DataFrame.from_dict(dict_inter)
+
+    # add pkl_id, pkl_id1 and pkl_datum_save to dataframe
     df_inter['PKL Id'] = row['PKL ID']
     df_inter['PKL Id1'] = row['PKL ID1']
     df_inter['PKL Datum Save'] = row['PKL DATUM SAVE']
